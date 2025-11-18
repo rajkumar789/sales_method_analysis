@@ -28,23 +28,23 @@ The raw dataset (`product_sales.csv`) contained 15,000 records. The following st
 ### 1. Customer Count by Approach
 The **Email** strategy reached the largest audience (approx. 50% of customers), acting as a low-effort "wide net." The **Email + Call** strategy was the most targeted, reaching the fewest customers.
 
-![Customer Count](images/barchart.png.png)
+![Customer Count](images/barchart.png)
 
 ### 2. Revenue Spread
 Revenue distribution is distinct for each method. 
 * **Call**: Low variance, consistently generating lower revenue ($30-$70).
 * **Email + Call**: High variance with a significantly higher median, indicating this method is effective at upselling larger baskets of goods ($120-$240).
 
-![Revenue Boxplot](images/boxplot.pngboxplot.png)
+![Revenue Boxplot](images/boxplot.png)
 
 *Overall Distribution showing the distinct tiers:*
-![Overall Revenue](images/histogram.png.png)
+![Overall Revenue](images/histogram.png)
 
 ### 3. Revenue Trends Over Time
 * **Email**: "Front-loaded" success. Revenue peaked in Week 1 and declined steadily.
 * **Email + Call**: "Momentum builder." Revenue started slow but **surged in Weeks 5 & 6**, eventually generating the highest weekly revenue of any method.
 
-![Revenue Trends](images/lineplot.png.png)
+![Revenue Trends](images/lineplot.png)
 
 ## 📈 Metric Definition: Average Revenue Per Customer
 To monitor future performance, I recommend tracking **Average Revenue Per Customer**. This metric normalizes results regardless of the volume of customers contacted.
